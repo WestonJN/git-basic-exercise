@@ -1,0 +1,247 @@
+    1  sudo apt install chromium-browser
+    2  sudo apt update
+    3  sudo apt-get update
+    4  sudo apt-get install chromium-browser
+    5  sudo apt-get update
+    6  sudo apt-get upgrade
+    7  sudo apt-get chromium-browser
+    8  sudo apt-get install chromium-browser
+    9  sudo apt --fix-missing?
+   10  mkdir git-basic exercises
+   11  git basic exercises
+   12  mkdir
+   13  mkdir git-basic-exercises
+   14  cd
+   15  mkdir git-basic-exercises
+   16  cd git-basic-exercises
+   17  ls-a
+   18  ls -a
+   19  git init
+   20  ls -a
+   21  git status
+   22  touch README.md
+   23  ls -a
+   24  git status
+   25  git log
+   26  git add README.md
+   27  git status
+   28  git rm --cached README.md
+   29  git status
+   30  git add README.md
+   31  git commit -m "initial commit"
+   32  git status
+   33  git commit -m "initial commit"
+   34  git config --global user.email "ferronique.may@umuzi.org"
+   35  git config --global user.name "Ferronique May"
+   36  git commit -m "initial commit"
+   37  git log
+   38  q
+   39  git log
+   40  q
+   41  nano README.md
+   42  cat README.md
+   43  git status
+   44  git add
+   45  git add README.md
+   46  git commit -m "second commit"
+   47  nano README.md
+   48  cat README.md
+   49  git status 
+   50  git add README.md
+   51  git commit -m "third commit"
+   52  git log
+   53  q
+   54  git checkout 6f5c80704fec3e11636821c26c85c33903ef3a55
+   55  cat README.md
+   56  git checkout master
+   57  cat README.md
+   58  git branch
+   59  git branch milkshake-flavours
+   60  git branch
+   61  git checkout milkshak-flavours
+   62  git checkout milkshake-flavours
+   63  git branch
+   64  nano milkshakes.md
+   65  git status
+   66  git add milkshake.md
+   67  git add milkshakes.md
+   68  git commit -m "added iinitial flavours"
+   69  git log
+   70  git checkout master 
+   71  git status
+   72  git branch history 
+   73  git branch
+   74  git checkout history
+   75  git log
+   76  history>history.txt
+   77  git commit -m "added history"
+   78  git add history.txt
+   79  git status
+   80  git commit -m "added history"
+   81  git log
+   82  git checkout milkshake-flavours
+   83  git log
+   84  cat README.md
+   85  nano README.md
+   86  git add README.md
+   87  git commit -m "random readme changes"
+   88  git checkout history 
+   89  cat README.md
+   90  rm README.md
+   91  echo "booya"> README.md
+   92  git add README.md 
+   93  git commit -m "rewrote readme"
+   94  git checkout master
+   95  ls
+   96  git log
+   97  git checkout milkshake-flavours
+   98  ls
+   99  git log
+  100  git checkout history
+  101  ls
+  102  git log
+  103  mkdir git-basic-exercises
+  104  cd git-basic-exercises
+  105  ls -a
+  106  git init
+  107  ls -a
+  108  git status
+  109  touch README.md
+  110  ls -a
+  111  git status
+  112  git log
+  113  git add README.md
+  114  git status
+  115  git commit -m "initial commit"
+  116  git log
+  117  nano README.md
+  118  cat README.md
+  119  git status
+  120  git add README.md
+  121  git commit -m "second commit"
+  122  nano README.md 
+  123  cat README.md
+  124  git status
+  125  git add README.md
+  126  git commit -m "third commit"
+  127  git log
+  128  git checkout
+  129  git checkout commit 116aa12b14ee6e7e2557953bceacafa0d27ea943
+  130  git checkout 116aa12b14ee6e7e2557953bceacafa0d27ea943
+  131  cat README.md
+  132  git checkout master
+  133  cat README.md
+  134  git branch
+  135  git branch milkshake-flavours
+  136  git branch
+  137  git checkout milkshake-flavours
+  138  git branch
+  139  nano milkshakes.md
+  140  git status
+  141  git add milkshakes.md
+  142  git commit -m "added initial flavours"
+  143  git log
+  144  git checkout master 
+  145  git log
+  146  ls
+  147  ls -a
+  148  git branch 
+  149  git branch history
+  150  git branch
+  151  git checkout history
+  152  git log
+  153  history>history.txt
+  154  git add history.txt
+  155  git commit -m "added history"
+  156  git log
+  157  git checkout milkshake-flavours
+  158  git log
+  159  nano README.md
+  160  git add README.md
+  161  git commit -m "random readme changes"
+  162  git checkout history
+  163  cat README.md
+  164  rm README.md
+  165  echo "booya" > README.md
+  166  git add README.md
+  167  git commit -m "rewrote readme"
+  168  git checkout master
+  169  ls
+  170  git log
+  171  git checkout milkshake-flavours
+  172  ls
+  173  git log
+  174  git checkout history
+  175  ls
+  176  git log
+  177  git checkout master
+  178  git merge milkshake-flavours
+  179  ls
+  180  git log
+  181  git checkout master
+  182  git merge history
+  183  ls
+  184  git log
+  185  git merge history
+  186  git branch 
+  187  git checkout history
+  188  git merge history
+  189  git add README.md
+  190  git commit
+  191  git merge history
+  192  git log
+  193  ls
+  194  git checkout history
+  195  git merge master
+  196  git log
+  197  git checkout master 
+  198  git log
+  199  mkdir git-basic-exercises
+  200  cd git-basic-exercises
+  201  ls -a
+  202  git init
+  203  ls -a
+  204  git status
+  205  touch README.md
+  206  ls-a
+  207  ls -a
+  208  git status
+  209  git log
+  210  git add README.md
+  211  git status
+  212  git commit -m "initial commit"
+  213  git log
+  214  nano README.md
+  215  cat README.md
+  216  git status
+  217  git add README.md
+  218  git commit -m "second commit"
+  219  nano README.md
+  220  git add README.md
+  221  git commit -m "third commit"
+  222  git log
+  223  git checkout cb5d40c385c8249c68b163da6951433c2b0e1372
+  224  cat README.md
+  225  git checkout master
+  226  cat README.md
+  227  git branch
+  228  git branch milkshake flavours
+  229  git branch
+  230  git branch milkshake-flavours
+  231  git branch
+  232  git checkout milkshake-flavours
+  233  nano milkshake.md
+  234  git status
+  235  git add milkshake.md
+  236  git commit -added initial flavours
+  237  git commit -m "added initial flavours"
+  238  git log
+  239  git checkout master
+  240  git log
+  241  git checkout master
+  242  git branch history
+  243  git checkout history
+  244  git log
+  245  git checkout history
+  246  git log
+  247  history > history.txt
